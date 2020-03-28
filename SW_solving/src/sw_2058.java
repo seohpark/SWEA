@@ -10,7 +10,6 @@ public class sw_2058 {
 	int N = sc.nextInt();
 	int sum=0;
 	for(int i=0; i<4; i++) {
-		//int num = N/10;
 		int last = N%10;
 		N = N/10;
 		sum += last;
